@@ -1,2 +1,2 @@
 # blog-page 
-A simple, responsie blog page
+A simple, responsive blog page
