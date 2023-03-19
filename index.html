@@ -1,137 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href ="style.css">
-    <title>Blog</title>
-    <link rel="icon" href="apple-touch-icon.png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <title>Bootstrap Example</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Blog</title>
+  <link rel="icon" href="favicon-16x16.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <title>Bootstrap Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
-    
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div id="imgg">
-            <img src="apple-touch-icon.png" class="imgg">
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div id="imgg">
+      <img src="favicon.ico" class="imgg">
+    </div>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">BLOGGO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Newsletters</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">More</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="blog">
+    <div class="blog-heading">
+      <div id="ndiv">
+        <span>My Recent posts</span>
+        <br>
+        <h3>MY BLOG</h3>
+      </div>
+    </div>
+    <div class="blog-container">
+      <div class="blog-box">
+        <div class="blog-img">
+          <img
+            src="https://www.opensourceforu.com/wp-content/uploads/2023/03/Artificial-intelligence-Chatbot-Voice-Assistant.jpg"
+            alt="blog">
         </div>
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">BLOGGO</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Newsletters</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">More</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="blog-text">
+          <span>3 March 2023 / Artificial Intelligent</span>
+          <a href="https://www.opensourceforu.com/2023/03/how-to-convert-chatgpt-into-an-advanced-voice-assistant/"
+            class="blog-title">Convert Chatgpt into an advanced Voice Assistant</a>
+          <p>ChatGPT needs no introduction. You ask it any question and it replies in a flash. But the answer comes in
+            the form of text. What if you could talk with it, just like you do with any voice assistant like Siri?</p>
+          <a href="#">Read More</a>
         </div>
-    </nav>
-    <section id="blog">
-        <div class="blog-heading">
-            <div id="ndiv">
-                <span>My Recent posts</span>
-                <br>
-                <h3>MY BLOG</h3>
-            </div>
+      </div>
+      <div class="blog-box">
+        <div class="blog-img">
+          <img
+            src="https://www.cnet.com/a/img/resize/ed8b3dd5c79abec772a5bb6d8386e3e55d1ddf7c/hub/2020/07/02/52542df2-114c-40c6-bc9e-c9cd602c4620/gettyimages-1005344670.jpg?auto=webp&width=1200"
+            alt="blog">
         </div>
-        <div class="blog-container">
-            <div class="blog-box">
-                <div class="blog-img">
-                    <img src="https://www.opensourceforu.com/wp-content/uploads/2023/03/Artificial-intelligence-Chatbot-Voice-Assistant.jpg" alt="blog">
-                </div>
-                <div class="blog-text">
-                    <span>3 March 2023 / Artificial Intelligent</span>
-                    <a href="https://www.opensourceforu.com/2023/03/how-to-convert-chatgpt-into-an-advanced-voice-assistant/" class="blog-title">Convert Chatgpt into an advanced Voice Assistant</a>
-                    <p>ChatGPT needs no introduction. You ask it any question and it replies in a flash. But the answer comes in the form of text. What if you could talk with it, just like you do with any voice assistant like Siri?</p>
-                    <a href="#">Read More</a>
-                </div>
-            </div>
-            <div class="blog-box">
-                <div class="blog-img">
-                    <img src="https://www.cnet.com/a/img/resize/ed8b3dd5c79abec772a5bb6d8386e3e55d1ddf7c/hub/2020/07/02/52542df2-114c-40c6-bc9e-c9cd602c4620/gettyimages-1005344670.jpg?auto=webp&width=1200"
-                        alt="blog">
-                </div>
-                <div class="blog-text">
-                    <span>4 March 2023 / Python Development</span>
-                    <a href="https://www.cnet.com/tech/services-and-software/best-online-python-course/"
-                        class="blog-title">Learn How to Code With the Best Python Courses</a>
-                    <p>Learn how to code with the best Python courses available, helping you unlock new job opportunities with the in-demand
-                    skill.</p>
-                    <a href="#">Read More</a>
-                </div>
-            </div>
-            <div class="blog-box">
-                <div class="blog-img">
-                    <img src="https://149695847.v2.pressablecdn.com/wp-content/uploads/2023/03/visual-chatgpt-1300x731-1-768x432.jpg"
-                        alt="blog">
-                </div>
-                <div class="blog-text">
-                    <span>5 March 2023 / DevOps</span>
-                    <a href="https://analyticsindiamag.com/visual-chatgpt-is-the-wake-up-call-for-text-to-image/"
-                        class="blog-title">DevOps Career Road Map</a>
-                    <p>The roadmap in DevOps is not linear, and there is no one-size-fits-all approach.Whether you're just starting out in DevOps or looking to advance your career, this roadmap will 
-                        provide you with the guidance and direction you need to succeed in this exciting and dynamic field.</p>
-                    <a href="#">Read More</a>
-                </div>
-            </div>
-            <div class="blog-box">
-                <div class="blog-img">
-                    <img src="https://149695847.v2.pressablecdn.com/wp-content/uploads/2023/03/visual-chatgpt-1300x731-1-768x432.jpg"
-                        alt="blog">
-                </div>
-                <div class="blog-text">
-                    <span>3 March 2023 / Artificial Intelligent</span>
-                    <a href="https://www.opensourceforu.com/2023/03/how-to-convert-chatgpt-into-an-advanced-voice-assistant/"
-                        class="blog-title">Visual ChatGPT is the Wake-up Call for Text-To-Image</a>
-                    <p>ChatGPT needs no introduction. You ask it any question and it replies in a flash. But the answer comes in the
-                        form of text. What if you could talk with it, just like you do with any voice assistant like Siri?</p>
-                    <a href="#">Read More</a>
-                </div>
-            </div>
-            <div class="blog-box">
-                <div class="blog-img">
-                    <img src="https://www.analyticsinsight.net/wp-content/uploads/2023/03/Top-10-Programming-Languages-for-Cybersecurity-Careers-in-2023.jpg"
-                        alt="blog">
-                </div>
-                <div class="blog-text"><span>3rd November 2022 / Computer Science</span>
-                    <a href="https://www.analyticsinsight.net/top-10-programming-languages-for-cybersecurity-careers-in-2023/"
-                        class="blog-title">Top 10 Programming Languages for Cybersecurity Careers</a>
-                    <p>ChatGPT needs no introduction. You ask it any question and it replies in a flash. But the answer comes in the
-                        form of text. What if you could talk with it, just like you do with any voice assistant like Siri?</p>
-                    <a href="#">Read More</a>
-                </div>
-            </div>
-            <div class="blog-box">
-                <div class="blog-img">
-                    <img src="https://www.analyticssteps.com/backend/media/thumbnail/3241914/7830629_1623925422_computer%20interactionArtboard%201.jpg"
-                        alt="blog">
-                </div>
-                <div class="blog-text">
-                    <span>3 March 2022 / Artificial Intelligent</span>
-                    <a href="https://www.analyticssteps.com/blogs/human-computer-interactionhci-importance-and-applications"
-                        class="blog-title">Human-Computer Interaction(HCI): Importance and Applications</a>
-                    <p>ChatGPT needs no introduction. You ask it any question and it replies in a flash. But the answer comes in the
-                        form of text. What if you could talk with it, just like you do with any voice assistant like Siri?</p>
-                    <a href="#">Read More</a>
-                </div>
-            </div>
+        <div class="blog-text">
+          <span>4 March 2023 / Python Development</span>
+          <a href="https://www.cnet.com/tech/services-and-software/best-online-python-course/" class="blog-title">Learn
+            How to Code With the Best Python Courses</a>
+          <p>Learn how to code with the best Python courses available, helping you unlock new job opportunities with the
+            in-demand
+            skill.</p>
+          <a href="#">Read More</a>
         </div>
-    </section>
+      </div>
+      <div class="blog-box">
+        <div class="blog-img">
+          <img
+            src="https://149695847.v2.pressablecdn.com/wp-content/uploads/2023/03/visual-chatgpt-1300x731-1-768x432.jpg"
+            alt="blog">
+        </div>
+        <div class="blog-text">
+          <span>5 March 2023 / DevOps</span>
+          <a href="https://analyticsindiamag.com/visual-chatgpt-is-the-wake-up-call-for-text-to-image/"
+            class="blog-title">DevOps Career Road Map</a>
+          <p>The roadmap in DevOps is not linear, and there is no one-size-fits-all approach.Whether you're just
+            starting out in DevOps or looking to advance your career, this roadmap will
+            provide you with the guidance and direction you need to succeed in this exciting and dynamic field.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="blog-box">
+        <div class="blog-img">
+          <img
+            src="https://149695847.v2.pressablecdn.com/wp-content/uploads/2023/03/visual-chatgpt-1300x731-1-768x432.jpg"
+            alt="blog">
+        </div>
+        <div class="blog-text">
+          <span>3 March 2023 / Artificial Intelligent</span>
+          <a href="https://www.opensourceforu.com/2023/03/how-to-convert-chatgpt-into-an-advanced-voice-assistant/"
+            class="blog-title">Visual ChatGPT is the Wake-up Call for Text-To-Image</a>
+          <p>ChatGPT needs no introduction. You ask it any question and it replies in a flash. But the answer comes in
+            the
+            form of text. What if you could talk with it, just like you do with any voice assistant like Siri?</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="blog-box">
+        <div class="blog-img">
+          <img
+            src="https://www.analyticsinsight.net/wp-content/uploads/2023/03/Top-10-Programming-Languages-for-Cybersecurity-Careers-in-2023.jpg"
+            alt="blog">
+        </div>
+        <div class="blog-text"><span>3rd November 2022 / Computer Science</span>
+          <a href="https://www.analyticsinsight.net/top-10-programming-languages-for-cybersecurity-careers-in-2023/"
+            class="blog-title">Top 10 Programming Languages for Cybersecurity Careers</a>
+          <p>ChatGPT needs no introduction. You ask it any question and it replies in a flash. But the answer comes in
+            the
+            form of text. What if you could talk with it, just like you do with any voice assistant like Siri?</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="blog-box">
+        <div class="blog-img">
+          <img
+            src="https://www.analyticssteps.com/backend/media/thumbnail/3241914/7830629_1623925422_computer%20interactionArtboard%201.jpg"
+            alt="blog">
+        </div>
+        <div class="blog-text">
+          <span>3 March 2022 / Artificial Intelligent</span>
+          <a href="https://www.analyticssteps.com/blogs/human-computer-interactionhci-importance-and-applications"
+            class="blog-title">Human-Computer Interaction(HCI): Importance and Applications</a>
+          <p>ChatGPT needs no introduction. You ask it any question and it replies in a flash. But the answer comes in
+            the
+            form of text. What if you could talk with it, just like you do with any voice assistant like Siri?</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
+
 </html>
