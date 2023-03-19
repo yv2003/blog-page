@@ -1,0 +1,226 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing:border-box;
+}
+@media (orientation:landscape){
+a{
+    text-decoration: none;
+    color:coral
+}
+ul{
+    list-style: none;
+}
+.imgg img{
+    width: 20%;
+    height:20%;
+}
+  nav img{
+    margin: 0px;
+    padding-left: 10px;
+  }
+
+#navbarNav{
+  position:right;
+}
+#blog{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:40px;
+    border-bottom: 5px solid rgba(217, 175, 197, 0.8);
+}
+
+.blog-heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog-heading span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(42, 21, 55, 0.8);
+}
+.blog-heading h3{
+    font-size: 20px;
+    font-family: arial;
+}
+.blog-container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /*align-items: flex-start;*/
+    margin:20px 0px;
+    
+
+}
+.blog-box{
+    margin: 20px;
+    width:25%;
+    background-color: aliceblue;
+    border: 0.5px solid black;
+    border-radius:20px;
+}
+
+.blog-img img{
+    width: 100%;
+    height: 200px;
+    object-fit:fill;
+    object-position:center;
+    border-radius:20px 20px;
+}
+.blog-text{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px;
+}
+.blog-text span {
+    font-size: 1rem;
+    font-weight: 200;
+    color:burlywood;
+}
+.blog-text .blog-title{
+    
+    font-size:1.5rem;
+    font-weight: 500;
+    color:blueviolet;
+    text-align: center;
+}
+
+.blog-text .blog-title:hover{
+    color:black;
+    transition: all ease 0.3s;
+}
+.blog-text p{
+    padding: 0 18px;
+    
+    color:black;
+    font-size:1rem;
+    overflow: hidden;
+    display:-webkit-inline-box;
+    /*-webkit-box-orient: horizontal;*/
+    -webkit-line-clamp: 2;
+    margin: 20px 10px;
+}
+.blog-text a{
+    font-size:10px;
+    color:black;
+}
+}
+@media (orientation:portrait) {
+    a {
+        text-decoration: none;
+        color:blue; 
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    #blog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 40px;
+        border-bottom: 5px solid rgba(217, 175, 197, 0.8);
+    }
+
+    .blog-heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .blog-heading span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgba(42, 21, 55, 0.8);
+    }
+
+    .blog-heading h3 {
+        font-size: 20px;
+        font-family: arial;
+    }
+
+    .blog-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px;
+
+
+    }
+
+    .blog-box {
+        width: 100%;
+        background-color: aliceblue;
+        border: 0.5px solid black;
+        margin: 20px;
+        border-radius:20px;
+    }
+
+    .blog-img img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: fill;
+        object-position: center;
+        border-radius:20px;
+    }
+
+    .blog-text {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+    }
+
+    .blog-text span {
+        font-size: 1rem;
+        font-weight: 200;
+        color: burlywood;
+    }
+
+    .blog-text .blog-title {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: blueviolet;
+    }
+
+    .blog-text .blog-title:hover {
+        color: black;
+        transition: all ease 0.3s;
+    }
+
+    .blog-text p {
+        color: black;
+        font-size: 1rem;
+        display: -webkit-box;
+        -webkit-box-orient: horizontal;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 20px 10px;
+    }
+
+    .blog-text a {
+        font-size: 10px;
+        color: black;
+    }
+}
